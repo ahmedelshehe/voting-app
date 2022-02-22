@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Idea extends Model
 {
+    const PAGINATION_COUNT = 10;
     use HasFactory ,Sluggable;
 
     protected $guarded =[];
